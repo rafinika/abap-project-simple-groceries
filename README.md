@@ -1,2 +1,2 @@
-# abap-project
-ABAP Project by me
+# Simple Groceries APP
+ABAP Project by Yoga Rafinika
