@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZYR_C_GROCERY'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZYR_C_GROCERY'
+  }
+}
+define service ZYR_UI_GROCERY_O4 provider contracts odata_v4_ui {
+  expose ZYR_C_GROCERY;
+}

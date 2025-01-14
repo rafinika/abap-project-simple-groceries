@@ -1,0 +1,205 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'Id'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'Id'
+annotate view ZYR_C_GROCERY with
+{
+  @UI.hidden: true
+  Id;
+  
+  @EndUserText.label: 'Product'
+  @UI.identification: [ {
+    position: 20 , 
+    label: 'Product'
+  } ]
+  @UI.lineItem: [ {
+    position: 20 , 
+    label: 'Product'
+  } ]
+  @UI.selectionField: [ {
+    position: 20 
+  } ]
+  Product;
+  
+  @EndUserText.label: 'Category'
+  @UI.identification: [ {
+    position: 30 , 
+    label: 'Category'
+  } ]
+  @UI.lineItem: [ {
+    position: 30 , 
+    label: 'Category'
+  } ]
+  @UI.selectionField: [ {
+    position: 30 
+  } ]
+  Category;
+  
+  @EndUserText.label: 'Brand'
+  @UI.identification: [ {
+    position: 40 , 
+    label: 'Brand'
+  } ]
+  @UI.lineItem: [ {
+    position: 40 , 
+    label: 'Brand'
+  } ]
+  @UI.selectionField: [ {
+    position: 40 
+  } ]
+  Brand;
+  
+  @EndUserText.label: 'Price'
+  @UI.identification: [ {
+    position: 50 , 
+    label: 'Price'
+  } ]
+  @UI.lineItem: [ {
+    position: 50 , 
+    label: 'Price'
+  } ]
+  @UI.selectionField: [ {
+    position: 50 
+  } ]
+  Price;
+  
+  @EndUserText.label: 'Quantity'
+  @UI.identification: [ {
+    position: 60 , 
+    label: 'Quantity'
+  } ]
+  @UI.lineItem: [ {
+    position: 60 , 
+    label: 'Quantity'
+  } ]
+  @UI.selectionField: [ {
+    position: 60 
+  } ]
+  Quantity;
+  
+  @EndUserText.label: 'Purchase Date'
+  @UI.identification: [ {
+    position: 70 , 
+    label: 'Purchasedate'
+  } ]
+  @UI.lineItem: [ {
+    position: 70 , 
+    label: 'Purchasedate'
+  } ]
+  @UI.selectionField: [ {
+    position: 70 
+  } ]
+  Purchasedate;
+  
+  @EndUserText.label: 'Expiration Date'
+  @UI.identification: [ {
+    position: 80 , 
+    label: 'Expirationdate'
+  } ]
+  @UI.lineItem: [ {
+    position: 80 , 
+    label: 'Expirationdate'
+  } ]
+  @UI.selectionField: [ {
+    position: 80 
+  } ]
+  Expirationdate;
+  
+  @EndUserText.label: 'Expired'
+  @UI.identification: [ {
+    position: 90 , 
+    label: 'Expired'
+  } ]
+  @UI.lineItem: [ {
+    position: 90 , 
+    label: 'Expired'
+  } ]
+  @UI.selectionField: [ {
+    position: 90 
+  } ]
+  Expired;
+  
+  @EndUserText.label: 'Rating'
+  @UI.identification: [ {
+    position: 100 , 
+    label: 'Rating'
+  } ]
+  @UI.lineItem: [ {
+    position: 100 , 
+    label: 'Rating'
+  } ]
+  @UI.selectionField: [ {
+    position: 100 
+  } ]
+  Rating;
+  
+  @EndUserText.label: 'Note'
+  @UI.identification: [ {
+    position: 110 , 
+    label: 'Note'
+  } ]
+  @UI.lineItem: [ {
+    position: 110 , 
+    label: 'Note'
+  } ]
+  @UI.selectionField: [ {
+    position: 110 
+  } ]
+  Note;
+  
+  @UI.identification: [ {
+    position: 120 
+  } ]
+  @UI.lineItem: [ {
+    position: 120 
+  } ]
+  @UI.selectionField: [ {
+    position: 120 
+  } ]
+  Createdby;
+  
+  @UI.identification: [ {
+    position: 130 
+  } ]
+  @UI.lineItem: [ {
+    position: 130 
+  } ]
+  @UI.selectionField: [ {
+    position: 130 
+  } ]
+  Createdat;
+  
+  @UI.identification: [ {
+    position: 140 
+  } ]
+  @UI.lineItem: [ {
+    position: 140 
+  } ]
+  @UI.selectionField: [ {
+    position: 140 
+  } ]
+  Lastchangedby;
+  
+  @UI.identification: [ {
+    position: 150 
+  } ]
+  @UI.lineItem: [ {
+    position: 150 
+  } ]
+  @UI.selectionField: [ {
+    position: 150 
+  } ]
+  Lastchangedat;
+  
+  @UI.identification: [ {
+    position: 160 
+  } ]
+  @UI.lineItem: [ {
+    position: 160 
+  } ]
+  @UI.selectionField: [ {
+    position: 160 
+  } ]
+  Locallastchanged;
+}

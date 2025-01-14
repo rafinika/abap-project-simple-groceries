@@ -1,0 +1,55 @@
+managed implementation in class ZYR_BP_R_GROCERY unique;
+strict ( 2 );
+with draft;
+define behavior for ZYR_R_GROCERY alias ZyrRGrocery
+persistent table zyr_grocery
+draft table zyr_dgrocery
+etag master Locallastchanged
+lock master total etag Lastchangedat
+authorization master ( global )
+
+{
+  field ( readonly )
+  Id,
+  Createdby,
+  Createdat,
+  Lastchangedby,
+  Lastchangedat,
+  Locallastchanged;
+
+  field ( numbering : managed )
+  Id;
+
+  action checkExpirationDate result [1] $self;
+
+  create;
+  update;
+  delete;
+
+  draft action Activate optimized;
+  draft action Discard;
+  draft action Edit;
+  draft action Resume;
+  draft determine action Prepare;
+
+  mapping for zyr_grocery
+    {
+      Id               = id;
+      Product          = product;
+      Category         = category;
+      Brand            = brand;
+      Price            = price;
+      Currency         = currency;
+      Quantity         = quantity;
+      Purchasedate     = purchasedate;
+      Expirationdate   = expirationdate;
+      Expired          = expired;
+      Rating           = rating;
+      Note             = note;
+      Createdby        = createdby;
+      Createdat        = createdat;
+      Lastchangedby    = lastchangedby;
+      Lastchangedat    = lastchangedat;
+      Locallastchanged = locallastchanged;
+    }
+}
