@@ -17,8 +17,11 @@ define root view entity ZYR_C_GROCERY
   Currency,
   Quantity,
   Purchasedate,
+  @Search.defaultSearchElement: true
   Expirationdate,
+  @Search.defaultSearchElement: true
   Expired,
+  @Search.defaultSearchElement: true
   Rating,
   Note,
   Createdby,
