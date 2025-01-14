@@ -51,6 +51,8 @@ You can directly interact with the app using the following Fiori app link:
 
 [Fiori App Link](https://23bf02f0-9d4d-4fe7-ae57-cab54ffafb1e.abap-web.us10.hana.ondemand.com/sap/bc/adt/businessservices/odatav4/feap/C%C2%87u%C2%84C%C2%83%C2%84%C2%89C%C2%83xu%C2%88uHC%C2%87u%C2%84C%C2%8E%C2%8D%C2%86s%C2%89%7Ds%7B%C2%86%C2%83wy%C2%86%C2%8Ds%C2%83HC%C2%87%C2%86%C2%8AxC%C2%87u%C2%84C%C2%8E%C2%8D%C2%86s%C2%89%7Ds%7B%C2%86%C2%83wy%C2%86%C2%8Ds%C2%83HCDDDEC77nmfsWs%5BfcWYfm777777nmfsi%5Ds%5BfcWYfmscH77DDDE77nmfsi%5Ds%5BfcWYfmscH/index.html?sap-ui-xx-viewCache=false&sap-ui-language=EN&sap-client=100 "Simple Grocery App")
 
+Screenshot from the Fiori App
+![Screenshot Grocery App](/ss-grocery-app.png "Grocery App")
 ## Test Cases
 1. **Test Case: Add New Grocery Item**
 
@@ -140,7 +142,6 @@ src/: Contains the source code for the application.
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
-
 
 ## Contact
 If you have any questions, feel free to reach out to [rafinika](https://github.com/rafinika "ABAP Developer").
