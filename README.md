@@ -27,6 +27,7 @@ The application follows the ABAP RESTful Application Programming Model (RAP), wh
 
 - SAP NetWeaver AS ABAP 7.52 or higher
 - ABAP Development Tools (ADT) in Eclipse
+- SAP Universal ID to interact with the Fiori App
 
 ### Installation
 
