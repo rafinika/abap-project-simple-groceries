@@ -25,19 +25,22 @@ The application follows the ABAP RESTful Application Programming Model (RAP), wh
 
 ### Prerequisites
 
-- SAP NetWeaver AS ABAP 7.52 or higher
-- ABAP Development Tools (ADT) in Eclipse
-- SAP BTP Access to interact with the Fiori App
+    - ABAP Development Tools (ADT) in Eclipse
+    - SAP BTP ABAP Environment Access (This project use the Trial version)
+    - abapGit in Eclipse
 
 ### Installation
 
-1. Clone the repository to your local machine:
+  1. Pull the repository to your new created package via abapGit:
 
-`git clone https://github.com/rafinika/abap-project-simple-groceries.git`
+  `https://github.com/rafinika/abap-project-simple-groceries.git`
 
-2. Import the project into your ABAP development environment.
+  2. Activate the Behavior Definition and the ABAP Class first, then activate all other imported file in the packege.
 
-3. Activate all the objects in the project.
+  3. Publish the Service Binding and preview the Fiori App.
+
+     You can follow detailed instruction to import content from github into the BTP ABAP Environtment from this tutorial:
+     [Import Content from abapGit Repository into the BTP ABAP Environment](https://community.sap.com/t5/technology-blogs-by-members/import-content-from-abapgit-repository-into-the-btp-abap-environment/ba-p/13559990#:~:text=Go%20to%20the%20project%20explorer%20and%20create%20a,objects%20from%20the%20github%20into%20the%20abap%20package)
 
 ### Usage
 1. Open the application in your browser.
@@ -49,7 +52,7 @@ The application follows the ABAP RESTful Application Programming Model (RAP), wh
 ### Fiori App
 You can directly interact with the app using the following Fiori app link:
 
-[Fiori App Link](https://23bf02f0-9d4d-4fe7-ae57-cab54ffafb1e.abap-web.us10.hana.ondemand.com/sap/bc/adt/businessservices/odatav4/feap/C%C2%87u%C2%84C%C2%83%C2%84%C2%89C%C2%83xu%C2%88uHC%C2%87u%C2%84C%C2%8E%C2%8D%C2%86s%C2%89%7Ds%7B%C2%86%C2%83wy%C2%86%C2%8Ds%C2%83HC%C2%87%C2%86%C2%8AxC%C2%87u%C2%84C%C2%8E%C2%8D%C2%86s%C2%89%7Ds%7B%C2%86%C2%83wy%C2%86%C2%8Ds%C2%83HCDDDEC77nmfsWs%5BfcWYfm777777nmfsi%5Ds%5BfcWYfmscH77DDDE77nmfsi%5Ds%5BfcWYfmscH/index.html?sap-ui-xx-viewCache=false&sap-ui-language=EN&sap-client=100 "Simple Grocery App")
+[Fiori App Link](https://685bd85e-501d-43dd-b091-aa6811254f67.abap-web.us10.hana.ondemand.com/sap/bc/adt/businessservices/odatav4/feap/C%C2%87u%C2%84C%C2%83%C2%84%C2%89C%C2%83xu%C2%88uHC%C2%87u%C2%84C%C2%8E%C2%8D%C2%86s%C2%89%7Ds%7B%C2%86%C2%83wy%C2%86%C2%8Ds%C2%83HC%C2%87%C2%86%C2%8AxC%C2%87u%C2%84C%C2%8E%C2%8D%C2%86s%C2%89%7Ds%7B%C2%86%C2%83wy%C2%86%C2%8Ds%C2%83HCDDDEC77nmfsWs%5BfcWYfm777777nmfsi%5Ds%5BfcWYfmscH77DDDE77nmfsi%5Ds%5BfcWYfmscH/flp.html?sap-ui-xx-viewCache=false&sap-ui-language=EN&sap-client=100#app-preview&/?sap-iapp-state=TASGVSU5OINVAUZ3DP17V8BQ4R5PM0B6P4DZQEUPC "Simple Grocery App")
 
 Screenshot from the Fiori App
 ![Screenshot Grocery App](/ss-grocery-app.png "Grocery App")
